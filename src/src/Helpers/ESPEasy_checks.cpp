@@ -67,7 +67,7 @@ void run_compiletime_checks() {
   #ifdef USES_NOTIFIER
   check_size<NotificationSettingsStruct,            996u>();
   #endif
-  check_size<ExtraTaskSettingsStruct,               472u>();
+  check_size<ExtraTaskSettingsStruct,               468u>(); //472u
   check_size<EventStruct,                           96u>(); // Is not stored
 
   // LogStruct is mainly dependent on the number of lines.

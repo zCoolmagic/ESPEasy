@@ -44,7 +44,7 @@
   #define NOTIFICATION_MAX                    3 // max 4!
 #endif
 #ifndef VARS_PER_TASK
-  #define VARS_PER_TASK                       4
+  #define VARS_PER_TASK                       7
 #endif
 #ifndef PLUGIN_CONFIGVAR_MAX
   #define PLUGIN_CONFIGVAR_MAX                8
@@ -59,7 +59,7 @@
   #define PLUGIN_EXTRACONFIGVAR_MAX          16
 #endif
 #ifndef NAME_FORMULA_LENGTH_MAX
-  #define NAME_FORMULA_LENGTH_MAX            40
+  #define NAME_FORMULA_LENGTH_MAX            23
 #endif
 
 
@@ -108,7 +108,7 @@
 //#define PINSTATE_TABLE_MAX                 32
 //#endif
 #ifndef RULES_MAX_SIZE
-  #define RULES_MAX_SIZE                   2048
+  #define RULES_MAX_SIZE                   8192
 #endif
 #ifndef RULES_MAX_NESTING_LEVEL
   #define RULES_MAX_NESTING_LEVEL             3
